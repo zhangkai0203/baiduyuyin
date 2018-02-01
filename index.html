@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="utf-8">
+	<body>
+        
+
+
+	</body>
+	<script>
+	
+	      
+    var zhText = "忍不住了，先发引子上来。; 
+	
+	get(zhText)
+	
+	
+	function get(zhText){
+	    
+		
+		zhText = encodeURI(zhText);
+		document.write("<audio autoplay=\"autoplay\">");
+		document.write("<source src=\"http://tts.baidu.com/text2audio?lan=zh&ie=UTF-8&spd=4&text="+ zhText +"\" type=\"audio/mpeg\">");
+		document.write("<embed height=\"0\" width=\"0\" src=\"http://tts.baidu.com/text2audio?lan=zh&ie=UTF-8&spd=2&text="+ zhText +"\">");
+		document.write("</audio>");
+		
+	
+	}
+	
+	
+	
+    
+   
+	
+	
+	</script>
+</html>
